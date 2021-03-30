@@ -39,16 +39,6 @@ header {
   flex-shrink: 0;
 }
 
-svg.sixdots {
-  width: 25px;
-  margin: 7px;
-  /*padding-top: 8px;
-  paddding-left: 5px;*/
-}
-svg.sixdots > path {
-  fill: #5f6368;
-}
-
 button#signin {
   width: 96px;
   background-color: #2b7de9;
@@ -88,6 +78,25 @@ header a:hover {
   outline: none;
 }
 
+.moreoptions:hover {
+  text-decoration: none;
+}
+
+.dots {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding: 0;
+  color: #5f6368;
+  width: 25px;
+  margin: 11px 12px 11px 12px;
+}
+
+.dotscloser {
+  margin-top: -3px;
+  margin-bottom: -4px;
+}
+
 .searchbox {
   height: 44px;
   width: 584px;
@@ -106,6 +115,13 @@ header a:hover {
   border-color: rgba(223, 225, 229, 0);
 }
 
+.magnifglass {
+  color: #9aa0a6;
+  font-size: 13px;
+  padding-left: 13px;
+  padding-top: 2px;
+}
+
 #logo {
   display: flex;
   flex-direction: column;
@@ -119,16 +135,6 @@ header a:hover {
 #logo > img {
   max-height: 92px;
   margin-top: auto;
-}
-
-svg.lupa {
-  width: 30px;
-  padding-left: 10px;
-  padding-top: 4px;
-}
-
-svg.lupa > path {
-  fill: #9aa0a6;
 }
 
 .inputsearch {
