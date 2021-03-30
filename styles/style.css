@@ -143,6 +143,10 @@ svg.lupa > path {
   border: none;
 }
 
+.inputsearch:focus-visible {
+  outline: none;
+}
+
 .buttons {
   display: grid;
   grid-template-columns: 1fr 1fr;
